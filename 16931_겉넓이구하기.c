@@ -25,7 +25,7 @@ int	main()
 	int res;
 	int max = 0;
 
-	scanf("%d %d\n", &N, &M);
+	scanf("%d %d\n", &M, &N);
 	for(int i = 1; i <= M; i++) //입력받기
 	{
 		for(int j = 1; j <= N; j++)
